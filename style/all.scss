@@ -1,0 +1,12 @@
+@import "functions";
+@import "./helpers/variables";
+@import "bootstrap";
+
+//custom
+@import "./base.scss";
+@import "./layout/footer.scss";
+@import "./pages/header.scss";
+@import "./pages/index.scss";
+@import "./pages/products.scss";
+@import "./pages/productdetail.scss";
+@import "./pages/done.scss";

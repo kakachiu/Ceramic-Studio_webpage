@@ -1,0 +1,27 @@
+.header {
+  position: relative;
+  .navbar-light .navbar-nav .nav-link,
+  .navbar-light .navbar-nav .nav-link{
+    color: #fff;
+    font-weight: 500;
+  }
+  .navbar-light .navbar-nav .nav-link:hover,
+  .navbar-light .navbar-nav .nav-link:focus {
+    color: #0e8a00;
+  }
+}
+.headerTitle {
+  height: 100vh;
+  padding: 150px 0px;
+  h2 {
+    font-size: 48px;
+  }
+}
+.headerBanner {
+  height: 100vh;
+  background-image: url(../images/index-1.jpg);
+  position: absolute;
+  top: -86px;
+  bottom: 20px;
+  z-index: -5;
+}

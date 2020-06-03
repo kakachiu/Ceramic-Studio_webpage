@@ -1,0 +1,56 @@
+.artDesigner {
+  background-image: url(../images/index-5.jpg);
+  padding: 150px;
+}
+
+.productH {
+  height: 350px;
+}
+
+.product1 {
+  background-image: url(../images/img-1.jpg);
+}
+
+.product2 {
+  background-image: url(../images/img-2.jpg);
+}
+
+.product3 {
+  background-image: url(../images/img-3.jpg);
+}
+
+.product4 {
+  background-image: url(../images/img-4.jpg);
+}
+
+.product5 {
+  background-image: url(../images/img-5.jpg);
+}
+
+.product6 {
+  background-image: url(../images/img-6.jpg);
+}
+
+.product7 {
+  background-image: url(../images/img-7.jpg);
+}
+
+.product8 {
+  background-image: url(../images/img-8.jpg);
+}
+
+.product9 {
+  background-image: url(../images/img-9.jpg);
+}
+
+.sale {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+}
+
+.discount {
+  text-decoration: line-through;
+}
+
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>產品列表</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css" />
+    <link rel="stylesheet" href="./assets/style/all.css" />
+  </head>
+
+  <body>
+    
+<header class="productHeader">
+  <nav
+    class="navbar navbar-expand-md bg-light navbar-light bg-transparent container py-3"
+  >
+  <button
+      class="navbar-toggler text-white"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarNav"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <a class="navbar-brand" href="index.html">
+      <h1 class="text-dark font-weight-bold font-italic h4">Craftsman</h1>
+    </a>
+    <a class="nav-link order-md-3" href="#">
+      <span class="material-icons" data-toggle="modal" data-target="#addCartModal">
+        shopping_cart
+      </span>
+    </a>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto ">
+        <li class="nav-item mr-4  ">
+          <a class=" nav-link text-primary " href="products.html">Product</a>
+        </li>
+        <li class="nav-item mr-4">
+          <a class="nav-link " href="#">Blog</a>
+        </li>
+        <li class="nav-item mr-4">
+          <a class="nav-link " href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<!-- 產品Bar -->
+<section class="productBar d-flex align-items-center mb-5">
+  <div class="container">
+    <ul class="d-flex align-items-center px-0 mb-0">
+      <li class="mr-5">
+        <a href="#" class="active h4">All<sup>24</sup></a>
+      </li>
+      <li class="mr-5">
+        <a href="#" class="h4 text-secondary">Bowl<sup>10</sup></a>
+      </li>
+      <li class="mr-5">
+        <a href="#" class="h4 text-secondary">Cup<sup>8</sup></a>
+      </li>
+      <li class="mr-5">
+        <a href="#" class="h4 text-secondary">Plate<sup>3</sup></a>
+      </li>
+      <li>
+        <a href="#" class="h4 text-secondary">Vase<sup>3</sup></a>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- 產品 -->
+<section class="products mb-5 d-flex">
+  <div class="container">
+    <div class="card-columns">
+      <a href="productdetail.html">
+        <div class="card border-0 mb-4">
+          <div class="productH product1 bg" style="height: 350px;">
+            <p class="sale text-white">On Sale</p>
+          </div>
+          <h4 class="card-title text-dark font-weight-bold mb-0">Tatami Cup</h4>
+          <div class="price d-flex">
+            <p class="text-dark mr-2">NT$1,080</p>
+            <p class="text-secondary discount">NT$1,200</p>
+          </div>
+        </div>
+      </a>
+      <a href="#">
+        <div class="card border-0 mb-4">
+          <div class="productH product6 bg" style="height: 240px;"></div>
+          <h4 class="card-title text-dark font-weight-bold mb-0">Limdae Cup</h4>
+          <p class="text-dark">NT$2,400</p>
+        </div>
+      </a>
+      <a href="#">
+        <div class="card border-0">
+          <div class="productH product8 bg" style="height: 480px;"></div>
+          <h4 class="card-title text-dark font-weight-bold mb-0">Kabi Mug</h4>
+          <p class="text-dark">NT$980</p>
+        </div>
+      </a>
+      <a href="#">
+        <div class="card border-0 mb-4">
+          <div class="productH product5 bg" style="height: 480px;">
+            <p class="sale text-white">On Sale</p>
+          </div>
+          <h4 class="card-title text-dark font-weight-bold mb-0">Hana Vase</h4>
+          <div class="price d-flex">
+            <p class="text-dark mr-2">NT$3,600</p>
+            <p class="text-secondary discount">NT$3,880</p>
+          </div>
+        </div>
+      </a>
+      <a href="#">
+        <div class="card border-0 mb-4">
+          <div class="productH product3 bg" style="height: 350px;"></div>
+          <h4 class="card-title text-dark font-weight-bold mb-0">Sumo Vase</h4>
+          <p class="text-dark">NT$4,800</p>
+        </div>
+      </a>
+      <a href="#">
+        <div class="card border-0">
+          <div class="productH product9 bg" style="height: 240px;"></div>
+          <h4 class="card-title text-dark font-weight-bold mb-0">
+            Shiro Plate
+          </h4>
+          <p class="text-dark">NT$1,200</p>
+        </div>
+      </a>
+      <a href="#">
+        <div class="card border-0 mb-4">
+          <div class="productH product4 bg" style="height: 240px;">
+            <p class="sale text-white">On Sale</p>
+          </div>
+          <h4 class="card-title text-dark font-weight-bold mb-0">
+            Baifan Bowl
+          </h4>
+          <div class="price d-flex">
+            <p class="text-dark mr-2">NT$1,800</p>
+            <p class="text-secondary discount">NT$1,980</p>
+          </div>
+        </div>
+      </a>
+      <a href="#">
+        <div class="card border-0 mb-4">
+          <div class="productH product7 bg" style="height: 480px;"></div>
+          <h4 class="card-title text-dark font-weight-bold mb-0">
+            Ceramic Vase
+          </h4>
+          <p class="text-dark">NT$3,600</p>
+        </div>
+      </a>
+      <a href="#">
+        <div class="card border-0">
+          <div class="productH product2 bg" style="height: 350px;"></div>
+          <h4 class="card-title text-dark font-weight-bold mb-0">
+            Couple Collection
+          </h4>
+          <p class="text-dark">NT$2,800</p>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- 分頁 -->
+<section class="pagination d-flex justify-content-center mb-5">
+  <a href="#" class="active h4 mr-4">1</a>
+  <a href="#" class="text-dark h4 mr-4">2</a>
+  <a href="#" class="text-dark h4">3</a>
+</section>
+
+
+    <section class="footerBanner bg">
+      <div class="container">
+        <div class="row align-items-center py-5">
+          <div class="col-md-6">
+            <h2 class="text-white mb-5">
+              Subscribe for news <br />
+              and special offers!
+            </h2>
+            <div class="row">
+              <div class="col-md-10">
+                <div class="input-group input-group-lg mb-3">
+                  <input
+                    type="email"
+                    class="form-control emailInput border-secondary py-4"
+                    placeholder="Your email address"
+                  />
+                  <div class="input-group-append">
+                    <button
+                      class="btn btn-primary px-4"
+                      type="button"
+                      id="button-addon2"
+                    >
+                      <p class="mb-0 btnText">Subscribe</p>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-md-6 col-12 d-flex align-items-center">
+            <h4 class="text-white font-weight-bold font-italic mb-0 mr-3">
+              Crafysman
+            </h4>
+            <small class="text-muted">© 2020. All Rights Reserved.</small>
+          </div>
+          <div class="col-md-5 col-12 d-flex align-items-center justify-content-end">
+            <ul class="d-flex mb-0 pl-0">
+              <li class="text-right mr-5">
+                <a href="#" class="text-white"
+                  ><small>Purchase Policy</small>
+                </a>
+              </li>
+              <li class="text-right mr-5">
+                <a href="#" class="text-white"><small>Privacy Policy</small></a>
+              </li>
+              <li class="text-right">
+                <a href="#" class="text-white"
+                  ><small>Terms & Conditions</small></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- 購物車的addCartModal -->
+    <!-- Modal -->
+    <div
+      class="modal right fade addCart"
+      id="addCartModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+      data-backdrop="static"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="container">
+            <div class="modal-header border-bottom-0">
+              <h5 class="modal-title" id="exampleModalLabel">
+                Cart List <sup class="text-primary">3</sup>
+              </h5>
+              <button
+                type="button"
+                class="close"
+                style="width: 50px;"
+                data-dismiss="modal"
+              >
+                <span aria-hidden="true" style="font-size: 50px; color: black;"
+                  >&times;</span
+                >
+              </button>
+            </div>
+            <div class="modal-body">
+              <ul class="cartList p-0">
+                <li class="d-flex mb-3">
+                  <div class="img mr-3">
+                    <img
+                      src="./assets/images/img-1.jpg"
+                      style="width: 200px;"
+                      height="100%"
+                    />
+                  </div>
+                  <div class="list w-100 bg-success">
+                    <div
+                      class="d-flex justify-content-between align-items-center pt-2 mb-3"
+                    >
+                      <p class="text-dark font-weight-bold mb-0">Tatami Cup</p>
+                      <span
+                        class="material-icons"
+                        data-toggle="modal"
+                        data-target="#delModal"
+                        style="cursor: pointer;"
+                      >
+                        clear
+                      </span>
+                    </div>
+                    <div class="price d-flex">
+                      <p class="text-secondary mr-3">NT$1,080</p>
+                      <p class="text-secondary discount">NT$1,200</p>
+                    </div>
+                    <div
+                      class="selectNum d-flex justify-content-between align-items-center"
+                    >
+                      <div
+                        class="btn-group bg-transparent"
+                        role="group"
+                        aria-label="Basic example"
+                      >
+                        <button
+                          type="button"
+                          class="btn min"
+                          style="width: 45px;"
+                        >
+                          -
+                        </button>
+                        <button
+                          type="button"
+                          class="btn num"
+                          style="width: 45px;"
+                        >
+                          1
+                        </button>
+                        <button
+                          type="button"
+                          class="btn add mr-3"
+                          style="width: 45px;"
+                        >
+                          +
+                        </button>
+                      </div>
+                      <p class="text-dark font-weight-bold mb-0">NT$1,080</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="d-flex">
+                  <div class="img mr-3">
+                    <img
+                      src="./assets/images/img-4.jpg"
+                      style="width: 200px;"
+                      height="100%"
+                    />
+                  </div>
+                  <div class="list w-100 bg-success">
+                    <div
+                      class="d-flex justify-content-between align-items-center pt-2 mb-3"
+                    >
+                      <p class="text-dark font-weight-bold mb-0">Baifan Bowl</p>
+                      <span
+                        class="material-icons"
+                        data-toggle="modal"
+                        data-target="#delModal"
+                        style="cursor: pointer;"
+                      >
+                        clear
+                      </span>
+                    </div>
+                    <div class="price d-flex">
+                      <p class="text-secondary mr-3">NT$1,800</p>
+                    </div>
+                    <div
+                      class="selectNum d-flex justify-content-between align-items-center"
+                    >
+                      <div
+                        class="btn-group bg-transparent"
+                        role="group"
+                        aria-label="Basic example"
+                      >
+                        <button
+                          type="button"
+                          class="btn min"
+                          style="width: 45px;"
+                        >
+                          -
+                        </button>
+                        <button
+                          type="button"
+                          class="btn num"
+                          style="width: 45px;"
+                        >
+                          1
+                        </button>
+                        <button
+                          type="button"
+                          class="btn add mr-3"
+                          style="width: 45px;"
+                        >
+                          +
+                        </button>
+                      </div>
+                      <p class="text-dark font-weight-bold mb-0">NT$3,600</p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="container-fluid">
+              <div class="row justify-content-end">
+                <div class="col-md-8">
+                  <div
+                    class="subtotal d-flex justify-content-between align-items-center"
+                  >
+                    <p class="text-secondary">Subtotal</p>
+                    <p class="text-secondary">NT$4,680</p>
+                  </div>
+                  <div
+                    class="shipping d-flex justify-content-between align-items-center"
+                  >
+                    <p class="text-secondary">Shipping</p>
+                    <p class="text-secondary">NT$80</p>
+                  </div>
+                  <div
+                    class="totalPrice d-flex justify-content-between align-items-center mb-4"
+                  >
+                    <p class="text-dark font-weight-bold h4">Total</p>
+                    <p class="text-dark font-weight-bold h4">NT$4,760</p>
+                  </div>
+                  <a href="checkinfo.html"
+                    type="button"
+                    class="btn btn-primary btn-block btn-lg"
+                  >
+                    Checkout
+                </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 刪除的modal -->
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="delModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header bg-danger">
+            <h5 class="modal-title text-white" id="exampleModalLabel">刪除</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            是否確定刪除？
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-primary px-4"
+              data-dismiss="modal"
+            >
+              取消
+            </button>
+            <button type="button" class="btn btn-outline-danger px-5">
+              確定
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./assets/js/vendors.js"></script>
+    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+    <script src="./assets/js/all.js"></script>
+  </body>
+</html>

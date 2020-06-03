@@ -1,0 +1,31 @@
+body p, body h1, body h2, body h3, body h4, body h5, body h6, body .h1, body .h2, body .h3, body .h4, body .h5, body .h6, html p, html h1, html h2, html h3, html h4, html h5, html h6, html .h1, html .h2, html .h3, html .h4, html .h5, html .h6 {
+  line-height: 1.5;
+}
+
+body img, html img {
+  display: block;
+  max-width: 100%;
+}
+
+body ul, body li, html ul, html li {
+  list-style: none;
+}
+
+body a:hover, body .btn-link:hover, html a:hover, html .btn-link:hover {
+  text-decoration: none;
+}
+
+.bg {
+  background-position: center center;
+  background-size: cover;
+}
+
+.colorWhite {
+  color: #fff;
+}
+
+input[type="checkbox"]:checked {
+  background-color: red;
+}
+
+/*# sourceMappingURL=base.css.map */
