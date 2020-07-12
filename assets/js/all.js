@@ -11,13 +11,20 @@ $(document).ready(function () {
     }
   });
   var num = 1;
-  $(".min").click(function () {
+
+  function click(num_var) {
+    num = num + num_var;
     $(".num").text(num);
-    num -= 1;
+  }
+
+  ;
+  $(".min").click(function () {
+    num = num - 1;
+    $(".num").text(num);
   });
   $(".add").click(function () {
+    num = num + 1;
     $(".num").text(num);
-    num += 1;
   });
 });
 //# sourceMappingURL=all.js.map
